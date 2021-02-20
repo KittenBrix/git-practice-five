@@ -1,0 +1,9 @@
+git status - shows the state of git on your local machine.
+
+git add <file(s)> - adds local files to the commit so that they can be packaged later.
+
+git rm --cached <file(s)> - removes local files from git's tracking. They wont be included in the commit.
+
+git commit -m "<your commit message>" - packages a set of changes (added files, changed files, anything you used `git add` on).
+
+git push - pushes to your upstream.
